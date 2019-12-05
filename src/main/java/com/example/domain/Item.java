@@ -1,5 +1,7 @@
 package com.example.domain;
 
+import java.util.List;
+
 public class Item {
 	
 	private Integer id;
@@ -9,6 +11,6 @@ public class Item {
 	private Integer priceL;
 	private String imagePath;
 	private Boolean deleted;
-	private List<topping> toppingList;
+	private List<Topping> toppingList;
 
 }
